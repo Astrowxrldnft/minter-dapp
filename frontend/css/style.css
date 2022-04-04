@@ -15,6 +15,7 @@
   --accent-color: #ffffff;
   --header-shadow: var(--accent-color) 0px 0px 25px;
   --card-shadow: var(--accent-color) 0px 0px 25px;
+  --btn-shadow: var(--accent-color) 0px 0px 15px;
 }
 
 * {
@@ -111,7 +112,7 @@ header .container {
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: var(--header-shadow);
+  box-shadow: var(--btn-shadow);
   cursor: pointer;
   position: relative;
   text-decoration: none;
