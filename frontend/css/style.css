@@ -186,6 +186,7 @@ section {
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
+  box-shadow: var(--header-shadow);
   font-size: 2rem;
   font-weight: 700;
   font-family: var(--font-secondary);
@@ -332,23 +333,6 @@ section {
   width: 100%;
 }
 
-/* SLIDDER Right*/
-
-.splide {
-  position: absolute;
-  top: 90px;
-  right: 5rem;
-  z-index: -1;
-}
-
-.splide__slide {
-  border: var(--accent-color) solid;
-  border-width: 5px 10px;
-}
-
-.splide__slide img {
-  width: 100%;
-}
 /* SPINNER */
 .dot-spin {
   position: absolute;
