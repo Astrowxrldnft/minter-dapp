@@ -108,7 +108,7 @@ header .container {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -133,7 +133,7 @@ header .container {
 
 .hero-btn {
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 1.5rem 3rem;
 }
 
