@@ -140,7 +140,7 @@ header .container {
 
 .card {
   position: relative;
-  background-color: rgba(var(--bg-color),.5);
+  background-color: rgba(0,0,0,.5);
   border-radius: 5px;
   border: 10px solid var(--accent-color);
   box-shadow: var(--card-shadow);
