@@ -187,11 +187,11 @@ section {
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
-  box-shadow: var(--header-shadow);
-  font-size: 2rem;
+  box-shadow: var(--btn-shadow);
+  font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--font-secondary);
-  padding: 1rem;
+  padding: 0.5rem;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -201,9 +201,9 @@ section {
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-secondary);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: var(--bg-color);
-  box-shadow: var(--header-shadow);
+  box-shadow: var(--btn-shadow);
   padding: 0.5rem 0.7rem;
   display: inline-block;
   width: 100%;
