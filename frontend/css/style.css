@@ -325,6 +325,7 @@ section {
 
 .splide__slide {
   border: var(--accent-color) solid;
+  box-shadow: var(--card-shadow);
   border-width: 5px 10px;
 }
 
