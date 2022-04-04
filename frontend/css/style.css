@@ -13,7 +13,7 @@
   --font-color: #00ddff;
   --btn-bg-color: #00ddff;
   --accent-color: #ffffff;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
+  --header-shadow: var(--accent-color) 0px 0px 20px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
@@ -79,7 +79,7 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: normal;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
@@ -105,7 +105,7 @@ header .container {
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
@@ -211,7 +211,7 @@ section {
 
 .countdown h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: normal;
   margin: 2rem 0;
   font-size: 3.5rem;
   text-align: center;
