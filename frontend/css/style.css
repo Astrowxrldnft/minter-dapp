@@ -102,13 +102,13 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
