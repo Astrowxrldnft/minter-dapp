@@ -54,8 +54,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'AstroX';
-const CONTRACT_SYMBOL = 'ASX';
+const CONTRACT_NAME = 'AstroSociety';
+const CONTRACT_SYMBOL = 'ASTRO';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x5E4aBF6F2C78463C38B264662803CE45e331d73E';
 const TREASURY_ADDRESS = '0x5E4aBF6F2C78463C38B264662803CE45e331d73E';
@@ -98,7 +98,7 @@ try {
 // END NFTPort Info
 
 const solanaMetadata = {
-  symbol: "ASX",
+  symbol: "ASTRO",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "",
   creators: [
