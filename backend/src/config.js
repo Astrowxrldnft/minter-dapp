@@ -8,19 +8,19 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "AstroX";
-const description = "Astro Society AI generated NFT";
+const description = "Astro Society AI generated NFT - AstroSociety.xyz -";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "Glow" },
       { name: "Body" },
       { name: "Skin" },
-      { name: "Button" },
+      { name: "Indicator" },
       { name: "Face" },
       { name: "Eyes" },
       { name: "Pets" },
@@ -43,7 +43,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "www.instagram.com/astrowxrldnft", // Replace with your website or remove this line if you do not have one.
+  external_url: "astrosociety.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -80,7 +80,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Which AstroX will you get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Which AstroSociety, AstroX limited edition NFT will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeihdfuczqumapbqj6s5wrob4exy3sjv3i4i2yrleq46rszmajdjg7y"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
